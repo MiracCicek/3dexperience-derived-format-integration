@@ -1,6 +1,6 @@
 'use strict';
 
-//TEST
+//TEST    asd
 
 // IMPORTS
 const express = require('express');
@@ -28,7 +28,6 @@ async function get_login_ticket() {
     unirest.get(url)
       .headers({
         'Accept': 'application/json',
-        'Cookie': 'JSESSIONID=C1EC4492415FEA07A749482FD244E698; afs=fb2f7f70-3b3b-44fd-a54f-5f9e8c5afe1d'
       })
       .strictSSL(false)
       .end(function (res) {
